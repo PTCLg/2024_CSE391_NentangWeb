@@ -1,11 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 
-body{
-    font-family: 'tilt neon', sans-serif;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'tilt neon', sans-serif;
+}
+
+.basic-info{
+    padding: 2%;
+}
+
+fieldset{
+    border-radius: 5px;
+}
+
+legend{
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+legend, ul li p{
+    font-weight: bold;
+}
+
+.info{
+    padding: 0.5rem;
+    margin-left: 10px;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    margin: 10px 0;
+}
+
+.gender ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 25px);
+    margin: 7px 0;
+    
+}
+
+.gender ul li input{
+    width: 17px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
+
+
+input, select{
+    width: 83%;
+    font-size: 1rem;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+}
+
+.select{
+    width: 130px;
+    padding: 7px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.jus-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+}
+
+.sub-can{
+    margin-left: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sub-can img{
+    margin-right: 5px;
 }

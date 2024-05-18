@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QLSV</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="start">
+                <p class="h1"><a href="#">TLU</a></p>
+                <p class="blur">Trang chủ</p>
+                <p>Quản lý nhân viên</p>
+            </div>
+            <div class="end">
+                <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                <button class="border-2">Tìm</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="flex bg p">
+            <div class="start">
+                <p class="tw">Quản lý Nhân viên</p>
+            </div>
+            <div class="end">
+                <button class="bg-error flex js-delete">
+                    <img src="img/min.svg" alt="">
+                    <span>Xóa</span>
+                </button>
+                <button class="bg-success flex js-more">
+                    <img src="img/max.svg" alt="">
+                    <span>Thêm nhân viên</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th><input type="checkbox"></th>
+                    <th>Họ và tên</th>
+                    <th>Thư điện tử</th>
+                    <th>Địa chỉ</th>
+                    <th>Số điện thoại</th>
+                    <th>Hành động</th>
+                </thead>
+                <tbody>
+                    <td><input type="checkbox"></td>
+                    <td>Nguyen Van A</td>
+                    <td>nguyenvana@gmail.com</td>
+                    <td>Hà Nội, Việt Nam</td>
+                    <td>0123456789</td>
+                    <td><button><img src="img/update.svg" alt=""></button><button><img src="img/delete.svg"
+                                alt=""></button></td>
+                </tbody>
+            </table>
+        </section>
+        <section class="add"></section>
+    </main>
+    <footer class="flex p">
+        <div class="display">
+            <p>Hiển thị <span>5 / 25</span> bản ghi</p>
+        </div>
+        <div class="flex">
+            <button class="p-3">Trước</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button class="p-3">Sau</button>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

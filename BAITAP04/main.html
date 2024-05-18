@@ -1,12 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
+    <section>
+        <form action="#">
+            <section class="basic-info">
+                <fieldset>
+                    <legend>Basic Info</legend>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <span class="text">
+                                    <p>Employee ID</p>
+                                </span>
+                                <span>9</span>
+                            </li>
+                            <li>
+                                <span>
+                                    <p>Last name</p>
+                                </span>
+                                <span>Dodsworth</span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>First Name</p>
+                                </span>
+                                <span>
+                                    <input type="text" placeholder="Anne">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Gender</p>
+                                </span>
+                                <span class="gender">
+                                    <ul>
+                                        <li>
+                                            <input type="radio"> Male
+                                        </li>
+                                        <li>
+                                            <input type="radio"> Female
+                                        </li>
+                                        <li>
+                                            <input type="radio"> XXX
+                                        </li>
+                                        <li>
+                                            <input type="radio"> ZZZ
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Title</p>
+                                </span>
+                                <span><input type="text" placeholder="Sales Representative"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Suffix</p>
+                                </span>
+                                <span><input type="text" placeholder="Ms."></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>BidthDate</p>
+                                </span>
+                                <span>
+                                    <input type="datetime" placeholder="1969-07-02 00:00:00"><span
+                                        class="info">(?)</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>HireDate</p>
+                                </span>
+
+                                <span><input type="datetime" placeholder="1994-11-15 00:00:00"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>SSN # (if applicable)</p>
+                                </span>
+                                <span><input type="text"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Reports To</p>
+                                </span>
+                                <span>
+                                    <select name="report" id="report" class="select">
+                                        <option value="1">Buchanan</option>
+                                    </select>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="basic-info">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <span class="text">
+                                    <p>Email</p>
+                                </span>
+                                <span>
+                                    <input type="email" placeholder="name@example.com">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Address</p>
+                                </span>
+                                <span><input type="text" placeholder="7 Houndstooth Rd."></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>City</p>
+                                </span>
+                                <span><input type="text" placeholder="London"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Region</p>
+                                </span>
+                                <span><input type="text"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Postal Code</p>
+                                </span>
+                                <span><input type="text" placeholder="WG2 7LT"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Country</p>
+                                </span>
+                                <span>
+                                    <select name="Country" id="Country" class="select">
+                                        <option value="1">Russian Federation</option>
+                                    </select>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>US Home Phone</p>
+                                </span>
+                                <span><input type="tel" placeholder="(234)234-2342"></span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Photo</p>
+                                </span>
+                                <span><input type="image"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </section>
+            <section class="basic-info">
+                <fieldset>
+                    <legend>Optional Info</legend>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <span class="text">
+                                    <p>Notes</p>
+                                </span>
+                                <span>
+                                    <textarea name="note" id="note" cols="60" rows="10"
+                                        placeholder="Anne has a BA degree in English from St. Lawrence College.She is fluent in French and German."></textarea>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Preferrend Shift</p>
+                                </span>
+                                <span class="gender">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox"> <label for="Regular">Regular</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox"> <label for="Gravy">Gravy Yard</label>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Active?</p>
+                                </span>
+                                <span class="gender">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox"><label for="Regular"></label>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="text">
+                                    <p>Are you human?</p>
+                                </span>
+                                <span class="flex"><label for="clickChange">Click to change</label><input
+                                        type="text"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </section>
+            <hr>
+            <section class="footer">
+                <div>
+                    <button class="button"><img src="img/back.svg" alt=""></button>
+                    <button class="button"><img src="img/next.svg" alt=""></button>
+                </div>
+                <div class="jus-cnt">
+                    <button class="sub-can"><img src="img/submit.svg" alt="">Submit</button>
+                    <button class="sub-can"><img src="img/cancel.svg" alt="">Cancel</button>
+                </div>
+            </section>
+            <section><p>* required</p></section>
+        </form>
+    </section>
 </body>
+
 </html>
