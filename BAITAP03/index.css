@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+*{
+    font-family: 'tilt neon', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5%;
+}
+
+table{
+    text-align: center;
+    border: 1px solid darkgray;
+}
+
+
+th, tr, td{
+    padding: 1rem;
+    border: 1px solid darkgray;
+}
