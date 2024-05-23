@@ -6,10 +6,10 @@
     <title>Học web chuẩn</title>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script>
-        $(function () {
+        $(() => {
             /* Code viết ở đây ↓ */
-            document.querySelector('.btn').addEventListener('click', () => {
-                document.querySelector('.text').innerHTML = 'hello';
+            $('.btn').click(() => {
+                $('.text').text('hello');
             });
         });
     </script>
