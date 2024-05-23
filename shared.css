@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+body {
+  font-family: "tilt neon", sans-serif;
+  padding: 5px;
+}
+header h3 {
+  color: brown;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.icons img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.icons p {
+  margin-left: 40px;
+}
+.start {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+}
+
+.text {
+  height: 150px;
+}
+
+.sang {
+  display: inline-flex;
+}
