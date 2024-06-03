@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm sinh viên</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery-validation.js"></script>
+</head>
+
+<body>
+    <h1>Thêm sinh viên</h1>
+    <section>
+        <form action="#" id="dataForm">
+            <div>
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name" name="name" placeholder="Nguyen van A">
+            </div>
+            <div>
+                <label for="msv">Mã sinh viên</label>
+                <input type="text" id="msv" name="msv" placeholder="1110001110">
+            </div>
+            <div>
+                <label for="ngaySinh">Ngày sinh</label>
+                <input type="date" id="ngaySinh" name="ngaySinh">
+            </div>
+            <div>
+                <label for="name">Lớp</label>
+                <input type="text" id="lop" name="lop" placeholder="65ktmp1">
+            </div>
+            <button class="blue js-more"><img src="img/max.svg" alt="">Thêm</button>
+        </form>
+    </section>
+    <section>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Họ và tên</th>
+                    <th>Mã sinh viên</th>
+                    <th>Ngày sinh</th>
+                    <th>Lớp</th>
+                    <th>Sửa</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

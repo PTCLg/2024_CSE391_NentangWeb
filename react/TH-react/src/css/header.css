@@ -1,0 +1,21 @@
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+ul li:hover{
+    background-color:darkgrey;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+}
